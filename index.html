@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmetic Chemical Insights</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <header class="bg-blue-600 text-white py-4 shadow-md">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Cosmetic Chemical Insights</h1>
+        <nav class="flex">
+          <div
+            id="face-washes"
+            class="mx-3 hover:underline nav-links cursor-pointer"
+          >
+            Face Washes
+          </div>
+          <div
+            id="skin-serums"
+            class="mx-3 hover:underline nav-links cursor-pointer"
+          >
+            Skin Serums
+          </div>
+          <div
+            id="lipsticks"
+            class="mx-3 hover:underline nav-links cursor-pointer"
+          >
+            Lipsticks
+          </div>
+          <div
+            id="sunscreens"
+            class="mx-3 hover:underline nav-links cursor-pointer"
+          >
+            Sunscreens
+          </div>
+          <div
+            id="body-sprays"
+            class="mx-3 hover:underline nav-links cursor-pointer"
+          >
+            Body Sprays
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-100 py-10 text-center">
+      <div class="container mx-auto flex flex-col items-center">
+        <h2 class="text-4xl font-semibold mb-4">
+          Understand the Chemistry Behind Your Cosmetics
+        </h2>
+        <p class="text-lg text-gray-700">
+          Discover the ingredients, benefits, and risks of everyday cosmetic
+          products.
+        </p>
+      </div>
+    </section>
+
+    <section id="input" class="bg-white flex flex-col items-center py-10">
+      <label for="product-select" class="w-1/6">Select your product:</label>
+      <select
+        name="product"
+        id="product-select"
+        class="w-1/6 px-4 py-2 text-xl rounded bg-blue-200"
+      >
+        <option value="face-washes">Face Wash</option>
+        <option value="skin-serums">Skin Serum</option>
+        <option value="lipsticks">Lipsticks</option>
+        <option value="sunscreens">Sunscreens</option>
+        <option value="body-sprays">Body Spray</option>
+      </select>
+    </section>
+
+    <!-- Face Washes -->
+    <section id="face-washes" class="py-10 bg-gray-50 product-section">
+      <div class="container mx-auto flex flex-col items-center">
+        <h2 class="text-3xl font-semibold mb-4 text-center">Face Washes</h2>
+        <img
+          src="./facewash.png"
+          alt="Face Washes"
+          class="h-96 mb-4 rounded-lg shadow-md"
+        />
+
+        <!-- Core Ingredients Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Core Ingredients Used in Face Wash
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Cleansing agents:</strong> These are surfactants that help
+              to break down and remove dirt and oil from the skin. Common
+              cleansing agents include sulphate (like SLS, SLES).
+            </li>
+            <li>
+              <strong>Surfactants:</strong> These substances reduce the surface
+              tension of water, allowing it to more easily mix with oil and
+              dirt.
+            </li>
+            <li>
+              <strong>Other ingredients:</strong> These ingredients may be added
+              to face washes to provide additional benefits or brighten the
+              skin. Common other ingredients include glycerine, hyaluronic acid,
+              salicylic acid, and vitamin C.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Properties of Various Chemicals Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Properties of Various Chemicals Used in Face Wash
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Cleansing agents:</strong> Cleansing agents are typically
+              surfactants that have a hydrophilic (water-loving) head and a
+              hydrophobic (oil-loving) tail. This allows them to break down and
+              remove oil and dirt from the skin.
+            </li>
+            <li>
+              <strong>Surfactants:</strong> Surfactants are similar to cleansing
+              agents in that they have a hydrophilic head and a hydrophobic
+              tail. However, surfactants are typically used at lower
+              concentrations than cleansing agents.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Composition of Chemicals Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Composition of Chemicals Used in Face Wash
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Water:</strong> Water is the main ingredient in most face
+              washes.
+            </li>
+            <li>
+              <strong>Cleansing agents:</strong> Cleansing agents are typically
+              used at a concentration of 1-5%.
+            </li>
+            <li>
+              <strong>Surfactants:</strong> Surfactants are typically used at a
+              concentration of 0.5-2%.
+            </li>
+            <li>
+              <strong>Other ingredients:</strong> Other ingredients are
+              typically used at a concentration of 0.1-5%.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Product Stability Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Product Stability
+          </h2>
+          <p class="text-gray-700">
+            The stability of a face wash product can be affected by several
+            factors, including the ingredients used, the manufacturing process,
+            and the storage conditions. It is important to store face wash
+            products in a cool, dry place away from direct sunlight.
+          </p>
+        </div>
+
+        <!-- Chemicals Good for the Skin Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Chemicals Which Are Good for the Skin Present in Face Wash
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Glycerine:</strong> Glycerine is a humectant that helps to
+              attract and retain moisture in the skin.
+            </li>
+            <li>
+              <strong>Hyaluronic acid:</strong> Hyaluronic acid helps to hydrate
+              the skin.
+            </li>
+            <li>
+              <strong>Salicylic acid:</strong> Salicylic acid is a beta hydroxy
+              acid that helps to exfoliate the skin and unclog pores.
+            </li>
+            <li>
+              <strong>Vitamin C:</strong> Vitamin C is an antioxidant that helps
+              to protect the skin from damage caused by free radicals.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Hazardous Chemicals Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Chemicals Which Are Hazardous to Our Skin Present in Face Wash
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Sodium lauryl sulphate (SLS):</strong> SLS is a surfactant
+              that can strip the skin of its natural oils, leading to dryness
+              and irritation.
+            </li>
+            <li>
+              <strong>Fragrance:</strong> Fragrance can be irritating to the
+              skin and may cause allergic reactions.
+            </li>
+            <li>
+              <strong>Parabens:</strong> Parabens are preservatives that have
+              been linked to hormone disruption and cancer.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Consumer Safety Section -->
+        <div>
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Consumer Safety
+          </h2>
+          <p class="text-gray-700">
+            If you have sensitive skin, it is best to choose a face wash that is
+            fragrance-free and contains gentle ingredients. It is also important
+            to patch test new face wash products before using them all over your
+            face.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skin Serums -->
+    <section id="skin-serums" class="py-10 bg-gray-50 product-section">
+      <div class="container mx-auto flex flex-col items-center">
+        <h2 class="text-3xl font-semibold mb-4 text-center">Skin Serums</h2>
+        <img
+          src="./serum.jpeg"
+          alt="Skin Serums"
+          class="h-96 mb-4 rounded-lg shadow-md"
+        />
+        <!-- Core Ingredients Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Core Ingredients Used in Serum
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Hyaluronic Acid:</strong> This superstar ingredient helps
+              your skin stay hydrated and plump.
+            </li>
+            <li>
+              <strong>Vitamin C:</strong> This antioxidant superhero protects
+              your skin from damage and helps brighten your complexion.
+            </li>
+            <li>
+              <strong>Niacinamide:</strong> This vitamin B3 derivative calms
+              redness and inflammation, and can help improve your skin's
+              texture.
+            </li>
+            <li>
+              <strong>Retinol:</strong> This form of vitamin A is a
+              wrinkle-fighter and can help improve your skin's overall
+              appearance.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Properties of Various Chemicals Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Properties of Various Chemicals Used in Serum
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Hyaluronic Acid:</strong> This ingredient is like a sponge
+              for your skin, attracting and holding onto moisture.
+            </li>
+            <li>
+              <strong>Vitamin C:</strong> This antioxidant helps protect your
+              skin from damage caused by pollution and sun exposure. It can also
+              help to fade dark spots and brighten your skin tone.
+            </li>
+            <li>
+              <strong>Niacinamide:</strong> This ingredient helps to calm
+              redness and inflammation, and can also help to improve the
+              appearance of your pores.
+            </li>
+            <li>
+              <strong>Retinol:</strong> This ingredient is a powerful anti-aging
+              ingredient that can help to reduce wrinkles and fine lines. It can
+              also help to improve the appearance of your skin's texture and
+              tone.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Composition of Chemicals Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Composition of Chemicals Used in Serum
+          </h2>
+          <p class="text-gray-700">
+            The composition of serum can vary depending on the brand and type of
+            serum. However, most serums will contain a combination of hyaluronic
+            acid, vitamin C, niacinamide, and retinol.
+          </p>
+        </div>
+
+        <!-- Product Stability Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Product Stability
+          </h2>
+          <p class="text-gray-700">
+            Serum is a relatively stable product. However, it is important to
+            store it in a cool, dry place away from direct sunlight. Exposure to
+            heat and sunlight can cause the serum to degrade.
+          </p>
+        </div>
+
+        <!-- Chemicals Good for the Skin Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Chemicals Good for the Skin in Serum
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Aloe vera:</strong> Aloe vera is a natural moisturizer
+              that can help to soothe and hydrate the skin.
+            </li>
+            <li>
+              <strong>Vitamin E:</strong> Vitamin E is an antioxidant that can
+              help to protect the skin from damage caused by free radicals.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Chemicals Hazardous to the Skin Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Chemicals Hazardous to the Skin in Serum
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Parabens:</strong> Parabens are preservatives that can
+              disrupt hormones.
+            </li>
+            <li>
+              <strong>Phthalates:</strong> Phthalates are chemicals that can
+              interfere with hormone function.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Consumer Safety Section -->
+        <div>
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4 text-center">
+            Consumer Safety
+          </h2>
+          <p class="text-gray-700">
+            It is important to choose a serum that is right for your skin type.
+            You should also patch test a new serum on a small area of skin
+            before using it all over your face.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lipsticks -->
+    <section id="lipsticks" class="py-10 bg-gray-50 product-section">
+      <div class="container mx-auto flex flex-col items-center">
+        <h2 class="text-3xl font-semibold mb-4 text-center">Lipsticks</h2>
+        <img
+          src="./lipstick.jpg"
+          alt="Lipsticks"
+          class="h-96 mb-4 rounded-lg shadow-md"
+        />
+        <!-- Core Ingredients Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Core Ingredients Used in Lipstick
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Waxes:</strong> Waxes give lipstick its shape and texture.
+              They also help to keep the colour on your lips.
+            </li>
+            <li>
+              <strong>Oils:</strong> Oils help to moisturize your lips and make
+              the lipstick glide on smoothly.
+            </li>
+            <li>
+              <strong>Pigments:</strong> Pigments are what give lipstick its
+              colour. They can be natural or synthetic.
+            </li>
+            <li>
+              <strong>Emollients:</strong> Emollients help to soften and smooth
+              your lips.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Properties of Various Chemicals Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Properties of Various Chemicals Used in Lipstick
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Waxes:</strong> Waxes are solid at room temperature, but
+              they melt when they come into contact with your lips. This helps
+              the lipstick to glide on smoothly and adhere to your lips.
+            </li>
+            <li>
+              <strong>Oils:</strong> Oils are liquid at room temperature. They
+              help to moisturize your lips and prevent the lipstick from drying
+              them out.
+            </li>
+            <li>
+              <strong>Pigments:</strong> Pigments can be natural or synthetic.
+              Natural pigments are derived from plants or minerals, while
+              synthetic pigments are created in a laboratory.
+            </li>
+            <li>
+              <strong>Emollients:</strong> Emollients help to soften and smooth
+              your lips. They can also help to protect your lips from the
+              elements.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Composition of Chemicals Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Composition of Chemicals Used in Lipstick
+          </h2>
+          <p class="text-gray-700">
+            The composition of lipstick can vary depending on the brand and type
+            of lipstick. However, most lipsticks will contain a combination of
+            waxes, oils, pigments, and emollients.
+          </p>
+        </div>
+
+        <!-- Product Stability Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Product Stability
+          </h2>
+          <p class="text-gray-700">
+            Lipstick is a relatively stable product. However, it is important to
+            store it in a cool, dry place away from direct sunlight. Exposure to
+            heat and sunlight can cause the lipstick to melt or degrade.
+          </p>
+        </div>
+
+        <!-- Chemicals Good for the Skin Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Chemicals Good for the Skin in Lipstick
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Shea butter:</strong> Shea butter is a natural moisturizer
+              that can help to soften and smooth your lips.
+            </li>
+            <li>
+              <strong>Vitamin E:</strong> Vitamin E is an antioxidant that can
+              help to protect your lips from damage caused by free radicals.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Chemicals Hazardous to the Skin Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Chemicals Hazardous to the Skin in Lipstick
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Lead:</strong> Lead is a heavy metal that can be toxic if
+              ingested.
+            </li>
+            <li>
+              <strong>Parabens:</strong> Parabens are preservatives that can
+              disrupt hormones.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Consumer Safety Section -->
+        <div>
+          <h2 class="text-center text-2xl font-semibold text-indigo-500 mb-4">
+            Consumer Safety
+          </h2>
+          <p class="text-gray-700">
+            It is important to choose a lipstick that is right for your skin
+            type. You should also avoid licking your lips or eating lipstick, as
+            this can lead to ingesting harmful chemicals.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sunscreens -->
+    <section id="sunscreens" class="py-10 bg-gray-50 product-section">
+      <div class="container mx-auto flex flex-col items-center">
+        <h2 class="text-3xl font-semibold mb-4 text-center">Sunscreens</h2>
+        <img
+          src="./sunscreen.jpg"
+          alt="Sunscreens"
+          class="h-96 mb-4 rounded-lg shadow-md"
+        />
+        <!-- Core Ingredients Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Core Ingredients Used in Sunscreen
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Active ingredients:</strong> These are the ingredients
+              that actually block or absorb UV radiation. They are usually
+              listed on the product label as a percentage.
+            </li>
+            <li>
+              <strong>Inactive ingredients:</strong> These ingredients help to
+              give the sunscreen its texture, spreadability, and other
+              properties.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Properties of Various Chemicals Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Properties of Various Chemicals Used in Sunscreen
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Titanium dioxide and Zinc oxide:</strong> These are
+              mineral sunscreens that reflect and scatter UV rays. They are
+              broad-spectrum, meaning they protect against both UVA and UVB
+              rays. They are also non-comedogenic, meaning they are unlikely to
+              clog pores.
+            </li>
+            <li>
+              <strong>Avobenzone, Oxybenzone, and Octinoxate:</strong> These are
+              chemical sunscreens that absorb UV rays. They are also
+              broad-spectrum and water-resistant.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Composition of Chemicals Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Composition of Chemicals Used in Sunscreen
+          </h2>
+          <p class="text-gray-700">
+            The composition of chemicals in sunscreen can vary depending on the
+            brand and type of sunscreen. However, most sunscreens will contain a
+            combination of active and inactive ingredients.
+          </p>
+        </div>
+
+        <!-- Product Stability Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Product Stability of Sunscreen
+          </h2>
+          <p class="text-gray-700">
+            Sunscreen is a complex product that can be affected by a number of
+            factors, including temperature, humidity, and exposure to sunlight.
+            It is important to store sunscreen in a cool, dry place and to
+            replace it every year, or sooner if it has been exposed to extreme
+            temperatures or sunlight.
+          </p>
+        </div>
+
+        <!-- Chemicals Good for the Skin Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Chemicals Good for the Skin in Sunscreen
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Vitamin E:</strong> This antioxidant can help to protect
+              the skin from damage caused by free radicals.
+            </li>
+            <li>
+              <strong>Hyaluronic acid:</strong> This ingredient can help to
+              hydrate the skin.
+            </li>
+            <li>
+              <strong>Niacinamide:</strong> This ingredient can help to improve
+              the appearance of wrinkles and age spots.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Chemicals Hazardous to the Skin Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Chemicals Hazardous to the Skin in Sunscreen
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Oxybenzone and Octinoxate:</strong> These ingredients have
+              been linked to hormone disruption and coral bleaching.
+            </li>
+            <li>
+              <strong>PABA:</strong> This ingredient can cause allergic
+              reactions in some people.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Consumer Safety Section -->
+        <div>
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4 text-center">
+            Consumer Safety
+          </h2>
+          <p class="text-gray-700">
+            It is important to choose a sunscreen that is right for your skin
+            type and needs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Body Sprays -->
+    <section id="body-sprays" class="py-10 bg-gray-50 product-section">
+      <div class="container mx-auto flex flex-col items-center">
+        <h2 class="text-3xl font-semibold mb-4 text-center">Body Sprays</h2>
+        <img
+          src="./bodyspray.jpg"
+          alt="Body Sprays"
+          class="h-96 mb-4 rounded-lg shadow-md"
+        />
+        <!-- Core Ingredients Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Core Ingredients Used in Body Spray
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Alcohols:</strong> Alcohols like ethanol and isopropyl
+              alcohol are used as solvents to dissolve fragrances and help them
+              evaporate quickly.
+            </li>
+            <li>
+              <strong>Ethanol:</strong> Ethanol is a colorless, flammable liquid
+              with a distinctive odor and a slightly sweet taste. It acts as a
+              solvent, helping to dissolve and distribute fragrances.
+            </li>
+            <li>
+              <strong>Isopropyl alcohol:</strong> Isopropyl alcohol is a
+              colorless, flammable liquid with a strong odor. It serves as a
+              solvent and helps to evaporate quickly, leaving behind a pleasant
+              scent.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Esters Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Esters - Responsible for the Scent
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Benzyl acetate:</strong> Benzyl acetate is a colorless
+              liquid with a sweet, floral, jasmine-like scent. It is commonly
+              used in perfumes and body sprays for its long-lasting fragrance.
+            </li>
+            <li>
+              <strong>Linalyl acetate:</strong> Linalyl acetate is a colorless
+              liquid with a sweet, floral, lavender-like scent. It contributes
+              to the overall fragrance profile and adds a touch of floral
+              sweetness.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Terpenes Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Terpenes - Naturally Occurring Aromas
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Limonene:</strong> Limonene is a naturally occurring
+              terpene found in citrus fruits. It contributes a fresh, citrusy
+              scent and adds a bright and invigorating aroma to body sprays.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Skin-Loving Chemicals Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Skin-Loving Chemicals in Body Spray
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Vitamin E:</strong> Vitamin E is a powerful antioxidant
+              that protects the skin from free radical damage and helps maintain
+              its moisture levels. It is often added to body sprays for its
+              skin-soothing properties.
+            </li>
+            <li>
+              <strong>Aloe vera:</strong> Aloe vera is a succulent plant known
+              for its healing and soothing properties. It is commonly used in
+              body sprays to moisturize and calm irritated skin.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Stability Secrets Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Stability Secrets: Antioxidants and pH Balancers
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Antioxidants:</strong> Antioxidants help to prevent the
+              degradation of fragrance molecules, extending the shelf life of
+              the body spray. They also protect the skin from damage.
+            </li>
+            <li>
+              <strong>pH Balancers:</strong> pH balancers ensure that the body
+              spray has the right pH level, which is optimal for skin health.
+              They help prevent irritation and maintain fragrance stability.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Harmful Elements Section -->
+        <div class="mb-10 w-full">
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4">
+            Harmful Elements in Body Spray
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong>Parabens:</strong> Parabens are preservatives used to
+              prevent the growth of bacteria and mold. They can disrupt the
+              body's hormone system and may increase the risk of cancer.
+            </li>
+            <li>
+              <strong>Phthalates:</strong> Phthalates are chemicals used to make
+              plastics more flexible. They can also disrupt the body's hormone
+              system and may increase the risk of cancer.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Consumer Safety Section -->
+        <div>
+          <h2 class="text-2xl font-semibold text-indigo-500 mb-4 text-center">
+            Consumer Safety
+          </h2>
+          <p class="text-gray-700 text-center">
+            Body sprays are generally safe for most people when used as
+            directed. However, some people may be allergic to certain
+            ingredients. You can check the safety of body sprays by looking for
+            products labeled as “fragrance-free” or “natural.”
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white py-4 text-center">
+      <p>&copy; 2024 Cosmetic Chemical Insights. All rights reserved.</p>
+    </footer>
+  </body>
+  <script>
+    const productSects = [
+      ...document.getElementsByClassName("product-section"),
+    ];
+    const selectInput = document.getElementById("product-select");
+    selectInput.onchange = () => {
+      productSects.forEach((i) => {
+        if (i.id === selectInput.value) {
+          i.classList.remove("hidden");
+        } else {
+          i.classList.add("hidden");
+        }
+      });
+    };
+    const navLinks = [...document.getElementsByClassName("nav-links")];
+    navLinks.forEach((i) => {
+      i.onclick = () => {
+        selectInput.value = i.id;
+        selectInput.onchange();
+      };
+    });
+
+    selectInput.onchange();
+  </script>
+</html>
